@@ -119,6 +119,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 ```
+`cp .env.example .env`
+`DB_CONNECTION=none`
+`php artisan key:generate`
+
 
 Common troubleshooting steps if styles aren't appearing:
 - Make sure npm run dev is running in the background
